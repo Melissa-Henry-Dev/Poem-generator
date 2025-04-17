@@ -3,25 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
     <title>Poem Generator</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to the AI Poem Generator</h1>
-    </header>
-    <main>
-        <form action="">
-            <input type="text" placeholder="Enter the topic of the poem..." />
-            <input type="submit" />
-        </form>
-        <div class="poem-container">
-            <p class="poem-lines">...</p>
-            <br/>
-            <p class="poem-lines">...</p>
-        </div>
-    </main>
-    <footer>Built by <a href="https://github.com/Melissa-Henry-Dev">Melissa Henry</a> code hosted on <a href="https://github.com/Melissa-Henry-Dev/Poem-generator">Github</a> website hosted on <a href="https://melissa-ai-poem-generator.netlify.app/">Netlify</a></footer>
+    <div class="container">
+        <header>
+            <h1>Welcome to the AI Poem Generator</h1>
+        </header>
+        <main>
+            <form action="">
+                <input type="text" placeholder="Enter the topic of the poem..." class="instructions" autofocus required autocomplete="off"/>
+                <input type="submit" class="submit-button"/>
+            </form>
+            <div class="poem-container">
+                <p class="poem-lines">...</p>
+                <br/>
+                <p class="poem-lines">...</p>
+            </div>
+        </main>
+        <footer>Built by <a href="https://github.com/Melissa-Henry-Dev">Melissa Henry</a> code hosted on <a href="https://github.com/Melissa-Henry-Dev/Poem-generator">Github</a> website hosted on <a href="https://melissa-ai-poem-generator.netlify.app/">Netlify</a></footer>
+    </div>
     <script src="src/script.js"></script>
 </body>
 </html>
